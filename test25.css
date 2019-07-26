@@ -1,0 +1,266 @@
+body{
+    margin: 0;
+}
+.head{
+    display: flex;
+}
+.head-middle{
+    width: 414px;
+    height: 206px;
+    background-color: #ffffff;
+	box-shadow: 0px 0px 65px 0px 
+        rgba(218, 229, 239, 0.55);
+    border-radius: 0 0 206px 206px;
+    text-align: center;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+.head-middle div{
+    margin-top: 57px;
+}
+.head-middle span{
+    font-size: 48px;
+	line-height: 18px;
+	letter-spacing: 1px;
+    color: #43a9ff;
+    margin-top: 57px;
+}
+.head-middle p{
+    font-size: 18px;
+	line-height: 18px;
+	letter-spacing: 0px;
+	color: #4b5863;
+    opacity: 0.15;
+    margin-top: 12px;
+}
+.head img{
+    width: 30px;
+    height: 30px;  
+    background-color: #ffffff;
+}
+.head .picture-1{
+    margin-left: 256px;
+    width: 60px;
+    height: 60px;
+    border: 1px solid white;
+    border-radius: 200px;
+    box-shadow: 0px 0px 35px 0px 
+    #dae5ef;
+    background-color: #ffffff;
+    margin-top: 57px;
+    text-align: center;
+    line-height: 75px;
+}
+.head .picture-2{
+    margin-right: 256px;
+    width: 60px;
+    height: 60px;
+    border: 1px solid white;
+    border-radius: 200px;
+    box-shadow: 0px 0px 35px 0px 
+    #dae5ef;
+    background-color: #ffffff;
+    margin-top: 57px;
+    text-align: center;
+    line-height: 75px;
+}
+.first{
+    justify-content: center;
+    text-align: center;
+    margin-top: 172px;
+    height: 1120px;
+    background-image:url(images/banner.png);
+    background-repeat: no-repeat;
+    background-position-y: 90px;
+}
+.first .title span{
+    font-size: 48px;
+	letter-spacing: 1px;
+    color: #000000;
+
+}
+.first .title p{
+    font-size: 18px;
+	line-height: 18px;
+	letter-spacing: 0px;
+	color: #4b5863;
+    opacity: 0.25;
+    margin-top: 22px;
+}
+.first .foot{
+    margin-top: 850px;
+    font-size: 18px;
+	line-height: 18px;
+	letter-spacing: 0px;
+	color: #4b5863;
+    opacity: 0.25;
+    margin-bottom: 22px;    
+}
+.second{
+    text-align: center;
+}
+.second .title{
+    font-size: 48px;
+	letter-spacing: 1px;
+    color: #000000;
+    text-align: center;
+    margin-top: 22px;
+}
+
+.middle{
+    display: flex;
+    margin-top: 99px;
+    justify-content: center;
+}
+.middle .box{
+    font-size: 18px;
+    color: #000000;
+    text-align: center;
+    margin-right: 60px;
+    margin-left: 60px;
+}
+.middle div{
+    margin-top: 37px;
+    margin-bottom: 41px;
+}
+.middle p{
+    font-size: 14px;
+	color: #4b5863;
+    opacity: 0.35;
+    line-height: 30px;
+}
+.explore-button{
+    font-size: 14px;
+    width: 229px;
+    height: 51px;
+    color: #43a9ff;
+    background-color: #ffffff;
+	box-shadow: 0px 0px 35px 0px 
+		rgba(218, 229, 239, 0.35);
+    border-radius: 22px;
+    display: inline-block;
+    line-height: 51px;
+    margin-top: 82px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+.third{
+    display: flex;
+    justify-content: center;
+    margin-top: 145px;
+}
+.third img{
+    width: 951.5px;
+}
+.third .box{
+    height:536px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f7f8fb;
+}
+.third .text span{
+    font-size: 48px;
+    color: #000000;
+}
+.third .text p{
+    line-height: 35px;
+}
+.text p{
+    font-size: 16px;
+	color: #4b5863;
+    opacity: 0.35;
+}
+.fourth {
+    background: url(images/Snowflake-gray.png) no-repeat 0 -100px;
+    height:1000px;
+    display: flex;
+}
+.fourth img{
+    margin-top: 276px;
+    margin-left: 396px;
+    height: 588px;
+    /* width: 360px; */
+}
+.fourth .text{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.fourth .text p{
+    line-height: 35px;
+    margin-top: 44px;
+}
+.fourth .text span{
+    font-size: 48px;
+	color: #43a9ff;
+}
+.fifth{
+    background: url(images/Snowflake2.png) no-repeat 1233px 116px;
+    display: flex;
+}
+.fifth img{
+    margin-right: 396px;
+}
+.fifth .text{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.fifth .text p{
+    line-height: 35px;
+    margin-top: 44px;
+}
+.fifth .text span{
+    font-size: 48px;
+	color: #43a9ff;
+}
+.sixth{
+    background:url(images/Snowflake.png) no-repeat 200px 0;
+    background-color: #f7f8fb;
+    display: flex;
+}
+.sixth p{
+    line-height: 35px;
+}
+.sixth img{
+    margin-left: 200px;
+}  
+.sixth .text{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.sixth .text span{
+    font-size: 48px;
+    color: #fe3254;
+    margin-bottom: 44px;
+}
+.seventh{
+    background:url(images/footerbg.png) no-repeat 0 220px;
+    height: 1460px;
+    text-align: center;
+    margin-top: 133px;
+}   
+.seventh .text span{
+    font-size: 48px;
+    color: #000000;
+    margin-top: 22px;
+}
+.seventh .text p{
+    margin-bottom: 22px;
+}
+.seventh button{
+    margin-top:92px;
+    font-size: 14px;
+    color: #43a9ff;
+    cursor: pointer;
+}                                
