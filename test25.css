@@ -35,9 +35,15 @@ body{
     margin-top: 12px;
 }
 .head img{
-    width: 30px;
-    height: 30px;  
+    width: 21px;
+    height: 21px;  
     background-color: #ffffff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
 }
 .head .picture-1{
     margin-left: 256px;
@@ -50,7 +56,8 @@ body{
     background-color: #ffffff;
     margin-top: 57px;
     text-align: center;
-    line-height: 75px;
+    position: relative;
+
 }
 .head .picture-2{
     margin-right: 256px;
@@ -63,7 +70,7 @@ body{
     background-color: #ffffff;
     margin-top: 57px;
     text-align: center;
-    line-height: 75px;
+    position: relative;
 }
 .first{
     justify-content: center;
@@ -119,6 +126,35 @@ body{
     text-align: center;
     margin-right: 60px;
     margin-left: 60px;
+}
+#q{
+    transform: translateX(0);
+    transition-duration: 4s;
+}
+#q:hover{
+    transform: translateX(-100px);
+    transition-duration:2s;
+}
+#w{
+    transition-duration: 2s;
+}
+#w:hover{
+    transform:scale(4);
+    transition-duration:4s;
+}
+#e{
+    transition-duration: 2s;
+}
+#e:hover{
+    transform: rotate(360deg);
+    transition-duration: 2s;
+}
+#r{
+    transition-duration: 2s;
+}
+#r:hover{
+    transform: skew(360deg);
+    transition-duration: 2s;
 }
 .middle div{
     margin-top: 37px;
